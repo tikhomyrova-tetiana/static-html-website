@@ -1,0 +1,62 @@
+html {
+    font-family: 'Hubballi', cursive;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    background-color: rgb(255, 204, 221);
+}
+
+body {
+    width: 600px;
+    align-items: center;
+    margin: 15px auto;
+    border: 5px solid rgb(252, 16, 95);
+    padding: 0 15px;
+    background-color: white;
+}
+
+
+img {
+    width: 200px;
+    display: block;
+    margin: 0 auto;
+    box-shadow: 5px 8px 5px rgb(224, 221, 224);
+}
+
+
+h1 {
+    margin: 0;
+    padding: 20px 0;
+}
+
+h3 {
+    animation-duration: 2s;
+    animation-name: slidein;
+  }
+  
+  @keyframes slidein {
+    from {
+      margin-left: 30%;
+      width: 200%;
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
+
+  a {
+    color:rgb(252, 16, 95)
+  }
+
+  a:visited {
+    color: rgb(130, 190, 245)
+  }
+
+  a:hover {
+    color: pink
+  }
+
+  a:active {
+    color:rgb(20, 3, 6)
+  }
